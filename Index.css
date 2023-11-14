@@ -99,13 +99,15 @@ section{
  font-size: larger;
  line-height: 150%;
 }
-
+/* a:link{
+    color:#000000;
+} */
 a:visited{
     color: black;
 }
 
 a:hover{
-    color: rgba(209, 70, 117, 0.719);
+    color: #1b0000b7;
 }
 
 footer{
