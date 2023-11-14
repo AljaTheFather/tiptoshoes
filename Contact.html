@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/hyperscript.org@0.9.11"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="Images\tiptop_logo_sml.png" alt=""></a>
+            </div>
+    
+            <div class="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" placeholder="Search here">
+            </div>
+            
+            <div class="wishlist">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                <input type="text" placeholder="wish list">
+            </div>
+            
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                </ul>
+            </nav>    
+        </div>
+        <div class="panel_container">
+            <div
+                 _="on click
+                 toggle .effect on .panel
+             ">
+                <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+            </div>
+        
+                <div class="panel">
+                    <ul>
+                        <li><a href="index.html"><strong>Home</strong></a></li>
+                        <li><a href="About.html"><strong>About</strong></a></li>
+                        <li><a href="Services.html"><strong>Services</strong></a></li>
+                        <li><a href="#"><strong>Contact</strong></a></li>
+                        <li><a href="Login.html"><strong>Login</strong></a></li>
+                    </ul> 
+                </div>
+        
+        </div>
+
+        <form action="">
+            <fieldset>
+                    
+                <legend><h2>Please put in your details and we will contact you as soon as we can!</h2></legend>
+                
+                <p>
+                    <label for="Full name">Full name</label>
+                    <input type="text" name = "name" placeholder = "John Doe" required>
+                </p>
+            
+                <p>
+                    <label for="Number" >Phone Number</label>
+                    <input type="Tel" name = "Number" placeholder = "04-0323-4567" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required /> <small>Format: 12-3456-7890</small>
+                </p>
+
+                <p>
+                    <label for="Email">Email</label>
+                    <input type="email" name = "Email" placeholder = "John.Doe@Gmail.com" required>  <small>Format: John.Doe@Gmail.com </small>
+                </p>
+                
+    
+                <p>
+                    <label for="Droplist">Reason of Contact</label>
+                    <select name="Droplist" id="">
+                        <option>Select one from below</option>
+                        <option value="Refund">Refund</option>
+                        <option value="Exhange">Exhange</option>
+                        <option value="info">Seeking Information</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </p>
+    
+                <p>
+                    <label for="">Additional Information&#63;</label>
+                    <textarea name="text" id="" cols="30" rows="10" placeholder="Click"></textarea>
+                </p>
+    
+                <p>
+                    <label for="PhotoUp">Photo Upload</label>
+                    <input type="file" id="PhotoUp">
+                </p>
+            
+                <p>
+                    <label for="VideoUp" class="Button">Video/Media</label>
+                    <input type="file" name="photo" id="videoup" value=""/>
+                </p>
+        
+                <p>
+                    <label></label>
+                    <input type="submit" class="button" value="Submit"/>
+                
+                    <label>&emsp; &emsp;</label>
+                    <input type="reset" name="button" value="Reset">
+                </p>
+            </fieldset>
+        </form>
+
+            <footer>
+                    <a href="Policies.html"><strong>Policies</strong></a>
+                    <a href="Delivery.html"><strong>Delivery</strong></a>
+                    <a href="Contact.html"><strong>Returns</strong></a>
+
+                    &copy; Tip Toe Soles
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/?lang=en-au"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+            </footer>
+
+    </div> 
+
+</body>
+</html>
